@@ -1,0 +1,7 @@
+[tool.black]
+line-length = 105
+include = '\.pyi?$'
+exclude = 'venv'
+
+[tool.flake8]
+max-line-length = 105
